@@ -1,6 +1,6 @@
 {
   "name": "misojs-select2-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A code mirror component for use in misojs (would probably also work with mithril)",
   "main": "select2.component.js",
   "scripts": {

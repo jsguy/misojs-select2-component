@@ -20,7 +20,7 @@ var Select2 = {
 	//	Returns a select box
 	view: function(ctrl) {
 		var selectedId = ctrl.value().id;
-		return [
+		return m('div', [
 
 			//	It's ok to include these each time - browser will cache.
 			m("SCRIPT", { src:  basePath + "lib/jquery-2.1.4.min.js"}),
@@ -37,7 +37,7 @@ var Select2 = {
 					return m("option", args, item.name);
 				})
 			])
-		];
+		]);
 	},
 	/**
 	Select2 config factory. The params in this doc refer to properties of the `ctrl` argument
