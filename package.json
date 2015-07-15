@@ -1,0 +1,27 @@
+{
+  "name": "misojs-select2-component",
+  "version": "0.0.1",
+  "description": "A code mirror component for use in misojs (would probably also work with mithril)",
+  "main": "select2.component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsguy/misojs-select2-component.git"
+  },
+  "dependencies": {
+    "select2": "^4.0.0"
+  },
+  "keywords": [
+    "misojs",
+    "mithril",
+    "select2"
+  ],
+  "author": "jsguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsguy/misojs-select2-component/issues"
+  },
+  "homepage": "https://github.com/jsguy/misojs-select2-component#readme"
+}
